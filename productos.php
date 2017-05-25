@@ -4,7 +4,7 @@
         <title></title>
     </head>
     <body>
-        <form action="lib/insertarProducto.php" method="post">
+        <form action="controladores/insertarProducto.php" method="post">
             <div id="ds">Nombre Producto:<input type="text" name="nombre"></div>
             <div id="ds">Total USD:<input type="text" name="totalusd"></div>
             <div id="ds">Año<input type="text" name="ano"></div>

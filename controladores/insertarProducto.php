@@ -1,5 +1,5 @@
 <?php
-include 'Conexion.php';
+include '../lib/Conexion.php';
     $nombre = $_POST['nombre'];
     $totalusd = $_POST['totalusd'];
     $ano = $_POST['ano'];

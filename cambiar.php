@@ -10,13 +10,12 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php if(!isset($_SESSION['USR'])) { ?>
-        <form action="lib/cambiarPassword.php" method="post">
+        <form action="./controladores/cambiarPassword.php" method="post">
             <div>Usuario: <input type="text" name="nombreUsuario"></div>
             <div>Contraseña Antigua: <input type="password" name="pwdAnt"></div>
             <div>Contraseña Nueva: <input type="password" name="pwdNew"></div>
+            <div>Confirme Contraseña Nueva: <input type="password" name="pwdSub"></div>
             <input type="submit" value="Cambiar Contraseña">
         </form>
-        <?php } ?>
     </body>
 </html>
